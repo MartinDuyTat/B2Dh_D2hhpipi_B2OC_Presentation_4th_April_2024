@@ -90,9 +90,9 @@
 \end{frame}
 
 % These three lines create an automatically generated table of contents.
-% \begin{frame}{Outline}
-%   \tableofcontents
-% \end{frame}
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
 
 \section{Introduction to \texorpdfstring{$\gamma$}{gamma} and \texorpdfstring{$C\!P$}{CP} violation}
 \begin{frame}{Introduction to $\gamma$ and $C\!P$ violation}
@@ -208,7 +208,7 @@
 
 \begin{frame}[fragile]{Multi-body $D$ decays}
   \begin{center}
-    This talk: Discuss $D\to K^+K^-\pi^+\pi^-$, where interference effects vary across phase space
+    This talk: Discuss $D\to h^+h^-\pi^+\pi^-$, where interference effects vary across phase space
   \end{center}
   \vspace{-0.3cm}
   \begin{itemize}
@@ -353,13 +353,14 @@
   \end{center}
   \begin{itemize}
     \setlength\itemsep{1.0em}
-    \item{Strong-phase analyses of both $D\to K^+K^-\pi^+\pi^-$ (Oxford) and $D\to\pi^+\pi^-\pi^+\pi^-$ (Oxford-USTC) are emerging from BESIII}
+    \item{I will only discuss the binned analysis of these modes today}
+    \item{Binned strong-phase analyses of $D\to K^+K^-\pi^+\pi^-$ (Oxford) and $D\to\pi^+\pi^-\pi^+\pi^-$ (Oxford-USTC) are emerging from BESIII}
     \begin{itemize}
-      \item{For $D\to\pi^+\pi^-\pi^+\pi^-$, these improve in precision on earlier study made with CLEO-c data \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
+      \item{For $D\to\pi^+\pi^-\pi^+\pi^-$, these improve in precision on earlier binned study made with CLEO-c data \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
     \end{itemize}
-    \item{Use this input to make first model-independent measurement with $D\to K^+K^-\pi^+\pi^-$, updating earlier LHCb model-dependent analysis}
-    \item{Use same 4-body selection to clone analysis for $D\to\pi^+\pi^-\pi^+\pi^-$, again using BESIII inputs}
-    \item{After surveying compatibility of results, perform joint model-independent analysis of both modes}
+    \item{Make first binned model-independent measurement with $D\to K^+K^-\pi^+\pi^-$, updating earlier LHCb model-dependent analysis}
+    \item{Clone analysis for $D\to\pi^+\pi^-\pi^+\pi^-$ with same 4-body selection}
+    \item{After checking for compatibility, perform joint analysis}
   \end{itemize}
 \end{frame}
 
@@ -407,9 +408,9 @@
     \setlength\itemsep{1.0em}
     \item{Binned strong-phase analysis of $D^0\to\pi^+\pi^-\pi^+\pi^-$ uses the $2\times5$ ``optimal'' binning scheme with $3$~fb$^{-1}$ $\psi(3770)$}
     \item{Earlier CLEO-c analysis with $0.8$~fb$^{-1}$ \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
-    \item{New BESIII analysis uses a new and optimised binning scheme}
+    \item{New BESIII analysis uses a new binning scheme optimised with a BESIII amplitude model \href{https://arxiv.org/abs/2312.02524}{arXiv:2312.02524}}
     \begin{itemize}
-      \item{Published BESIII amplitude model constructed from a larger data set}
+      \item{Amplitude model constructed from a larger data set}
       \item{In principle more sensitive}
     \end{itemize}
     \item{Two binning schemes are available:}
@@ -478,13 +479,14 @@
   \end{center}
   \begin{itemize}
     \setlength\itemsep{1.5em}
-    \item{We \underline{already have} tuples of $B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ from phase-space integrated measurement}
+    \item{We \underline{have already studied} $B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ for phase-space integrated measurement}
     \begin{enumerate}
       \setlength\itemsep{0.5em}
       \item{Different $D$ daughter PID cuts in stripping}
       \item{No $D\to K\pi\pi\pi\pi^0$ background}
       \item{Charmless background recalculated using the sideband}
       \item{Use same BDT}
+      \item{No additional peaking backgrounds}
     \end{enumerate}
     \item{Sort candidates into phase-space bins using BESIII binning scheme}
     \item{Can fit separately or simultaneously with $K^+K^-\pi^+\pi^-$}
@@ -660,7 +662,6 @@
   \end{figure}
 \end{frame}
 
-\section{Likelihood scan of CP observables}
 \begin{frame}{Strong-phase parameters in CP fit}
   \begin{center}
     {\large Why are $c_i$ and $s_i$ Gaussian constrained?}
@@ -919,7 +920,7 @@
 
 \begin{frame}{Interpretation results}
   \begin{center}
-    {\large Results from interpretation, after correcting for biases in central values (not uncertainties):}
+    {\large Results from interpretation of $K^+K^-\pi^+\pi^-$, after correcting for biases in central values (not uncertainties):}
   \end{center}
   \vspace{-0.5cm}
   \begin{columns}
@@ -941,7 +942,7 @@
       \end{center}
       \begin{align*}
         \gamma =& (116^{+12}_{-14})^\circ \\
-        \delta_B^{DK} =& (81^{14}_{-13})^\circ \\
+        \delta_B^{DK} =& (81^{+14}_{-13})^\circ \\
         r_B^{DK} =& (11.0 \pm 2.0)\times10^{-2} \\
         \delta_B^{D\pi} =& (298^{+62}_{-118})^\circ \\
         r_B^{D\pi} =& (4^{+5}_{-4})\times10^{-3}
@@ -957,7 +958,7 @@
 
 \begin{frame}{Interpretation results}
   \begin{center}
-    {\large Results from interpretation, after correcting for biases in central values (not uncertainties):}
+    {\large Results from interpretation of $h^+h^-\pi^+\pi^-$, after correcting for biases in central values (not uncertainties):}
   \end{center}
   \vspace{-0.5cm}
   \begin{columns}
@@ -995,7 +996,7 @@
 
 \begin{frame}{Interpretation results}
   \begin{center}
-    {\large Results from interpretation, after correcting for biases in central values (not uncertainties):}
+    {\large Results from interpretation of $h^+h^-\pi^+\pi^-$, after correcting for biases in central values (not uncertainties):}
   \end{center}
   \vspace{-0.5cm}
   \begin{columns}
@@ -1073,7 +1074,7 @@
   \end{figure}
   \vspace{-0.3cm}
   \begin{center}
-    However, with all the non-Gaussian behaviour and asymmetric pull distributions, do we actually trust the uncertainties?
+    However, with all the non-Gaussian behaviour, are we sure these contours cover $68\%$ and $95\%$\phantom{y}?
   \end{center}
 \end{frame}
 
@@ -1113,8 +1114,8 @@
 
 \begin{frame}{Plugin/Feldman-Cousins method}
   \begin{center}
-    Combined fit shows good agreement between Plugin and Prob scans \\
-    As expected, $D\to K^+K^-\pi^+\pi^-$ shows a large non-Gaussian tail
+    LHCb average within $2\sigma$ of $D\to K^+K^-\pi^+\pi^-$ Plugin result \\
+    Combined fit shows good agreement between Plugin and Prob scans
   \end{center}
   \begin{figure}
     \centering
@@ -1129,9 +1130,10 @@
 
 \section{Conclusion}
 \begin{frame}{Conclusion}
+  \vspace{-0.1cm}
   \begin{itemize}
     \setlength\itemsep{1.5em}
-    \item{Model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
+    \item{Binned model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
     \begin{itemize}
       \item{Uses BESIII strong-phase inputs which are not yet public, but are expected to become so on timescale of $\sim2$ months}
     \end{itemize}
@@ -1145,25 +1147,27 @@
 \end{frame}
 
 \begin{frame}{Conclusion}
-  \vspace{0.2cm}
+  \vspace{0.6cm}
   \begin{itemize}
     \setlength\itemsep{1.5em}
-    \item{Model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
+    \item{Binned model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
     \begin{itemize}
       \item{Uses BESIII strong-phase inputs which are not yet public, but are expected to become so on timescale of $\sim2$ months}
     \end{itemize}
     \item{Statistically limited measurement, but $s_i$ uncertainties are large}
     \begin{itemize}
-      \item{Charm mixing studies will improve this!}
+      \item{$\pi^+\pi^-\pi^+\pi^-$: $s_i$ uncertainties will improve with full BESIII data set}
+      \item{$K^+K^-\pi^+\pi^-$: Charm mixing studies can improve $s_i$ precision}
     \end{itemize}
     \item{The ANA note is ready and available for B2OC WG review}
   \end{itemize}
+  \vspace{0.2cm}
   \begin{center}
     {\huge Thanks for your attention!}
   \end{center}
 \end{frame}
 
-\begin{frame}{Backup:Bin asymmetries}
+\begin{frame}{Backup: Bin asymmetries}
   \begin{center}
     $B^\pm\to[K^+K^-\pi^+\pi^-]_Dh^\pm$ bin asymmetries
   \end{center}
@@ -1182,7 +1186,7 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{Backup:Bin asymmetries}
+\begin{frame}{Backup: Bin asymmetries}
   \begin{center}
     $B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ bin asymmetries
   \end{center}
